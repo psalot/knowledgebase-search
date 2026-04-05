@@ -1,0 +1,4 @@
+slack-sdk
+requests
+atlassian-python-api
+openai

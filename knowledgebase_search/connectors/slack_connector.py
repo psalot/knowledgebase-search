@@ -17,7 +17,7 @@ class SlackConnector:
         self.client = WebClient(token=token)
     
     def search_messages(self, query: str, limit: int = 10) -> List[Dict[str, Any]]:
-        """Search for Slack messages."""
+        """Search for Slack messages.
         
         Args:
             query: Search query string
